@@ -122,17 +122,40 @@ li.list-group-item {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  
+  padding-left: 30%;
 }
 
+#contact-card {
+  background: rgba(0,0,0,0);
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 80%;
+
+ 
+}
+
+#aline{
+  display: flex;
+  color: #4c4c4b;
+
+}
+.word {
+  margin-left: -80%;
+    margin-top: 11%;
+    font-size: 1.4em;
+}
+
+p{
+  margin-bottom: 3.6rem;
+}
 .cards {
   display: flex;
   flex-direction: row;
@@ -152,6 +175,9 @@ li.list-group-item {
   
   width: 390px;
 }
+
+
+
   @media (min-width: 768px) {
     #sidebar-wrapper {
       margin-left: 0;
@@ -167,5 +193,12 @@ li.list-group-item {
     #wrapper.toggled #sidebar-wrapper {
       margin-left: -15rem;
     }
+
+    .word {
+      
+        margin-top: 7%;
+        
+    }
+
   }
   

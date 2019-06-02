@@ -14,10 +14,10 @@
                 <div class="border-right purple navbar-fixed-left" id="sidebar-wrapper">
                   <div class="sidebar-heading" id="top"></div>
                   <div class="list-group list-group-flush">
-                    <a href="#" class="list-group-item list-group-item-action purple "><img src="src/img/home.png"></a>
-                    <a href="#" class="list-group-item list-group-item-action purple "><img src="src/img/about.png"></a>
-                    <a href="#" class="list-group-item list-group-item-action purple "><img src="src/img/portafolio.png"></a>
-                    <a href="#" class="list-group-item list-group-item-action purple "><img src="src/img/contacto.png"></a>
+                    <a href="#home" class="list-group-item list-group-item-action purple" data-toggle="tooltip" data-placement="right" title="Home" ><img src="src/img/home.png"></a>
+                    <a href="#about" class="list-group-item list-group-item-action purple"data-toggle="tooltip" data-placement="right" title="Sobre mí"><img src="src/img/about.png"></a>
+                    <a href="#portfolio" class="list-group-item list-group-item-action purple" data-toggle="tooltip" data-placement="right" title="Portafolio"><img src="src/img/portafolio.png"></a>
+                    <a href="#contact-card" class="list-group-item list-group-item-action purple"data-toggle="tooltip" data-placement="right" title="Contacto"><img src="src/img/contacto.png"></a>
                   </div>
                 </div>
                 <!-- /#sidebar-wrapper -->
@@ -26,13 +26,13 @@
                 <div id="page-content-wrapper">
             
                   <div class="navbar navbar-expand-sm navbar-light border-bottom">
-                        <button class="navbar-toggler" id="menu-toggle" type="button"> <span class="navbar-toggler-icon"></span>
+                        <button class="navbar-toggler menu-toggle" type="button"> <span class="navbar-toggler-icon"></span>
                             </button>
                         <img src="/src/img/logo.png" width= "50px" alt="logo">
                         
                   </div>
             
-                  <div class="container-fluid">
+                  <div id="home"class="container-fluid">
                       <div class="jumbotron jumbotron-fluid">
                           <div class="container">
                               <img src="src/img/logo.png" id="start"  >
@@ -42,9 +42,10 @@
                           </div>
                         </div>
                   </div>
-                 <div class="jumbotron">
+                 <div class="jumbotron" id="about">
+                    <img src="src/img/photo.png" alt="">
   <img src="src/img/about-me.png"class="display-4">
-  <img src="src/img/photo.png" alt="">
+  
   <hr class="my-4">
   <p>Estudié Diseño y Comunicación visual en la Facultad de Artes y
     Diseño/UNAM, mi interés en la animación, la tecnología y el
@@ -52,6 +53,11 @@
     programación dónde me especialicé en Front-End Development.
     Me gusta estar en constante aprendizaje, crear, innovar y 
     el trabajo en equipo.</p>
+    <div class="card">
+        <div class="card-body">
+          This is some text within a card body.
+        </div>
+      </div>
   <p class="lead">
   </p>
 </div>
@@ -152,18 +158,27 @@
                         </div>
                   </div>
                 </div>
-                  <div class="container-fluid">
-                    <h1 class="mt-4">contacto</h1>
+
+                  <div class="container-fluid" id="aline" >
+                    <div class="card" id="contact-card">
+                        <img src="src/img/comtact-me.png"  height="60px" alt="">
                     <button class="contact" onclick="location.href = 'https://www.linkedin.com/in/analh%C3%AD-esperanza-guadarrama-medina-181379184/';"><img src="src/img/gitHub.png" alt="" width="120px"></button>
-                    <button class="contact" onclick="location.href = 'https://github.com/analhi7';"><img src="src/img/linkedin.png" alt="" width="120px"></button>
-                    <button class="contact" data-toggle="tooltip" data-placement="bottom" title="analhi.e.m7@gmail.com"><img src="src/img/email.png" alt="" width="120px"></button>
+                    <button class="contact" onclick="location.href = 'https://github.com/analhi7';"><img src="src/img/linkedin.png" alt="" width="120px"></button> 
+                    <button class="contact" data-toggle="tooltip" data-placement="right" title="analhi.e.m7@gmail.com"><img src="src/img/email.png" alt="" width="120px"></button>
+                  </div>
+                  <div class="word">
+                      <p>analhi7</p>
+                      <p>Analhí Guadarrama</p>
+                      <p>analhi.e.m7@gmail.com</p>
+                    </div>
+
                   </div>
                   
                      
                           <footer class="page-footer font-small">
 
                               <!-- Footer Elements -->
-                              <div class="container">
+                              <div class="">
                             
                                 <!-- Grid row-->
                                 <div class="row">
