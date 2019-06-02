@@ -1,0 +1,171 @@
+body {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out; 
+   
+  }
+
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 15rem;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+  
+    
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #top{
+    height: 64px;
+  }
+
+  .purple{
+    background-color: #562E49;
+  }
+
+  .list-group-flush .list-group-item {
+    padding-left: 85px;
+}
+  
+.list-group-item {
+  padding: 1.75rem 1.25rem;
+}
+  
+
+figure {
+  margin-top:0px;
+}
+#start{
+  width: 200px;
+}
+.card {
+
+  background-color: #4c4c4b;
+  color: white;
+  margin-bottom: 50px;
+ 
+}
+
+.jumbotron-fluid {
+  height: 560px;
+  display: flex;
+  align-content: center;
+}
+.page-footer{
+  background-color: #562E49;
+  color:white;
+}
+li.list-group-item {
+  background-color: #4c4c4b;
+  color: white;
+}
+
+.contact{
+  background:rgba(0,0,0,0);
+    border:0px;
+  
+}
+.btn-primary {
+  color: #4c4c4b;
+  background-color: #a2ccc6;
+  border-color: #a2ccc6;
+  margin-left: 35px;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  margin-left: 30px;
+}
+
+#herramientas {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+
+#title {
+  margin-bottom: 12px;
+}
+
+.links {
+  border-radius: 6px;
+  border: 0px;
+  margin-left: 41px;
+  color: #4c4c4b;
+  font-size: 15px;
+}
+
+.portfolio{
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 45px;
+  padding-right: 69px;
+  align-content: space-between;
+}
+
+#about-cont{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+#aboutme{
+  
+  width: 390px;
+}
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+     
+      
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+  }
+  
