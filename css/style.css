@@ -17,7 +17,8 @@ body {
     -webkit-transition: margin .25s ease-out;
     -moz-transition: margin .25s ease-out;
     -o-transition: margin .25s ease-out;
-    transition: margin .25s ease-out; 
+    transition: margin .25s ease-out;
+    position: fixed; 
    
   }
 
@@ -202,7 +203,8 @@ p{
   
     #page-content-wrapper {
       min-width: 0;
-      width: 100%;
+      width: 87%;
+      margin-left:23%;
      
       
     }
